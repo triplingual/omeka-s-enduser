@@ -1,6 +1,4 @@
----
-title: DSpace Connector
----
+# DSpace Connector
 
 DSpace Connector is a [module](index.md) for Omeka S which allows you to connect an Omeka S instance to a DSpace repository to import items from that repository. In addition to importing information, the Omeka S item will include a link back to the original item.
 
@@ -48,6 +46,8 @@ To import a collection or community, click the Import button to the left of its 
 ![First community from mars.gmu.edu's DSpace repository](../modules/modulesfiles/dspace_comm.png)
 
 You can track the status of the import by navigating to the DSpace Connector > Past Imports tab or on the [Jobs](../admin/jobs.md) tab of the left-hand navigation on the admin dashboard.
+
+- Are your jobs starting and not completing? You might need to [set the path for PHP](../configuration/) so that your system can perform the background process to make the items.
 
 ## Review Imports
 Go to the DSpace Connector tab on the left-hand navigation of the admin dashboard, click on DSpace Connector and then click on Past Imports, which should appear below the DSpace Connector tab.

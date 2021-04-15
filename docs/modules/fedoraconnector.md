@@ -1,6 +1,4 @@
----
-title: Fedora Connector
----
+# Fedora Connector
 
 Fedora Connector is a [module](../modules/index.md) for Omeka S which allows you to connect an Omeka S instance to a [Fedora](https://duraspace.org/fedora/) 4 repository in order to import items from containers in that repository. In addition to importing information, the Omeka S item will include a link back to the original item.
 
@@ -32,6 +30,8 @@ You should see a screen with the following options:
 ![Screenshot of the field options for Fedora Connector](../modules/modulesfiles/mods_fedoraconnect.png)
 
 When the data is complete, press submit. You can track the status of the import by navigating to the Fedora Connector > Past Imports tab or on the [Jobs](../admin/jobs.md) tab of the left-hand navigation on the admin dashboard.
+
+- Are your jobs starting and not completing? You might need to [set the path for PHP](../configuration/) so that your system can perform the background process to make the items.
 
 ## Undo an Import
 To undo a completed import and remove all associated items, go to the Fedora Connector tab on the left-hand navigation of the admin dashboard, click on Fedora Connector and then click on Past Imports, which should appear below the Fedora Connector tab.

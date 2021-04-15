@@ -1,6 +1,4 @@
----
-title: Zotero Import
----
+# Zotero Import
 
 Zotero Import is a [module](index.md) for Omeka S which allows you to connect an Omeka S instance to a Zotero library and import items from that library.
 
@@ -35,6 +33,8 @@ To import from a Zotero library:
 *  The “Added After”option allows you to import only those Zotero items added to the library after the date and time you choose. You can use this as a way to update from a previous import without re-adding files you already imported.
 
 When you have completed the form, click Submit in the upper right-hand corner of the browser window.
+
+- Are your jobs starting and not completing? You might need to [set the path for PHP](../configuration/) so that your system can perform the background process to make the items.
 
 A note on files: The rules for importing an item are the same as creating an item in Omeka, so if your Zotero library has files which are a disallowed media type, the items will not be imported.
 

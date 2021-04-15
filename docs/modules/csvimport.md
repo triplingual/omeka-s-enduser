@@ -1,6 +1,5 @@
----
-title: CSV Import
----
+# CSV Import
+
 The CSV Import module allows you to import items or users into your Omeka S install from a csv (comma separated values), tsv (tab-separated values) or odf (open document format) file. 
 
 Please note that an import must have a specific import type. 
@@ -682,6 +681,7 @@ Depending on the size of the import, it may take some time to undo. On complete,
 The following are known errors that can occur during an import:  
 
 - **Encoding**: CSVs for import must be UTF-8 encoded. 
+- Are your jobs starting and not completing? You might need to [set the path for PHP](../configuration/) so that your system can perform the background process to make the items.
 
 ## CSV Import with other modules
 Some other modules add functionality to CSV import. If you have these modules installed and active, you will have access to the following options when using CSV import.
@@ -714,7 +714,7 @@ Everything on the *Map to Omeka S data* tab will be the same. When you add a map
 
 For the data in this column, you need to include the full file name, including extension. So, for example, if you want to import a jpg file which is named "Jekyll_and_Hyde_Title" then the data in the media column of the csv you are importing should be `Jekyll_and_Hyde_Title.jpg`.
 
-## Numeric Data Types
+### Numeric Data Types
 If you have [Numeric Data Types](modules/numericdatatypes/) installed and active, it will add the option to set a column data type as numeric data.
 
 ![Column options drawer with the data type dropdown open, showing options for numeric data types as well as the standard options](../modules/modulesfiles/csvimport-numericdata.png)
