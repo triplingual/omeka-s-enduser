@@ -310,20 +310,17 @@ The following is a detailed breakdown of permissions for each user role:
 
 **Reviewer**
 
-- Can search, view, create, and edit all items, item sets, and media. Can only delete those items, item sets, and media they own.
-- No access to sites unless they have been added as a site-specific user.
-- View-only privileges for vocabularies and resource templates. Can see all logs.
-- No access to modules.
-- Can see other users of the installation and their email addresses.
+- Can search, read, create, and edit all items, item sets, and media. Can only delete those items, item sets, and media.
+- Can be added to a site at the Creator or Manager levels, which enables them to search, read, create, edit, and delete site pages. If a Reviewer has not been added as a site user, they will have read-only access to that site's content.
+- Search and read only privileges for vocabularies and resource templates.
+- No privileges for modules
 
 **Author**
 
-- Can search, view, and create items, item sets, resource templates, and media. Can only edit or delete content they own.
-- Cannot see objects marked private, unless the object is a site that they have site-specific permissions for.
-- No access to sites unless they have been added as a site-specific user.
-- Search and view privileges for vocabularies and sites. Cannot see other users' logs.
-- No access to modules.
-- Can see other users of the installation and their email addresses.
+- Can search, read, and create items, item sets, and media. Can only edit or delete content which the user has created.
+- Can be added to a site at the Creator or Manager levels, which enables them to search, read, create, edit, and delete site pages. If a Reviewer has not been added as a site user, they will have read-only access to that site's content.
+- Search and read only privileges for vocabularies and sites.
+- No privileges for modules
 
 **Researcher**
 
